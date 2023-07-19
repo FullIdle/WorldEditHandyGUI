@@ -1,0 +1,8 @@
+name: ${rootProject.name}
+main: ${group}
+version: ${version}
+  - WorldEdit
+commands:
+  worldedithandygui:
+    description: cmd
+    aliases: [wehgui,whgui]

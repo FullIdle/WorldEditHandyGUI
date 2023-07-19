@@ -1,0 +1,221 @@
+BindItem:
+  Material: 'GOLD_AXE'
+  Name: 'WorldEdit便捷GUI'
+  Lore:
+    - ''
+MainGUI:
+  Title: 'WorldEdit便捷GUI'
+  ItemStack:
+    '0':
+      Material: STONE
+      Name: 填充//set
+      Lore:
+        - ''
+      Type: RUNCODE
+      Data:
+    '1':
+      Material: SAND
+      Name: 填充空气//set 0
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+        - '//set 0'
+    '4':
+      Material: TRIPWIRE_HOOK
+      Name: 延展选区
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '8':
+      Material: INK_SACK
+      Name: 平滑(让方块位置更加自然)
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+        - '//smooth'
+    '9':
+      Material: SLIME_BALL
+      Name: 球体
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '10':
+      Material: SNOW_BALL
+      Name: 空心球体
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '12':
+      Material: WOOD_AXE
+      Name: 选区1//pos1
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+        - '//pos1'
+    '13':
+      Material: STRUCTURE_VOID
+      Name: 去除选区
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '14':
+      Material: WOOD_AXE
+      Name: 选区2
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+        - '//pos2'
+    '17':
+      Material: INK_SACK
+      Name: 地形自然化
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '18':
+      Material: WATER_BUCKET
+      Name: 圆柱
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '19':
+      Material: BUCKET
+      Name: 空心圆柱
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '22':
+      Material: TRIPWIRE_HOOK
+      Name: 收缩选区1
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '26':
+      Material: LONG_GRASS
+      Name: 自然生成植物（草/花）
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '27':
+      Material: BRICK
+      Name: 围墙（高度随选区）
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '31':
+      Material: IRON_SWORD
+      Name: 堆叠建筑
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '35':
+      Material: SAPLING
+      Name: 自然树林生成
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '36':
+      Material: PAPER
+      Name: 全局蒙版(限制生效条件的)
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '37':
+      Material: EMPTY_MAP
+      Name: 替换
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '39':
+      Material: STRUCTURE_BLOCK
+      Name: 复制
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '40':
+      Material: SKULL_ITEM
+      Name: 清理复制记录
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '41':
+      Material: STRUCTURE_BLOCK
+      Name: 粘贴
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '44':
+      Material: SNOW
+      Name: 自然雪面
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '45':
+      Material: FEATHER
+      Name: 笔刷
+      Lore:
+        - ''
+      Type: RUNCODE
+      Data:
+        - 'var myGuiClass = Java.type(me.fullIdle.worldedithandygui.WorldEditHandyGUI.MyGUI)'
+        - 'var type = myGuiClass.GUIType.BRUSH'
+        - 'var brushGUI = new myGuiClass(GuiTitle,54,type)'
+        - 'player.openInventory(brushGUI.getInventory());'
+    '46':
+      Material: PAPER
+      Name: 笔刷蒙版(限制生效条件的)
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '48':
+      Material: COMPASS
+      Name: 左旋转90
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '49':
+      Material: BARRIER
+      Name: 回撤
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '50':
+      Material: COMPASS
+      Name: 右旋转90
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+    '53':
+      Material: FLINT_AND_STEEL
+      Name: 融化(第一选区为中心)
+      Lore:
+        - ''
+      Type: RUNCMD
+      Data:
+BrushGUI:
+  Title:
